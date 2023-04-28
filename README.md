@@ -7,7 +7,7 @@ I built this application for any future employers to preview my previous work. I
 
 ## Installation
 
-In order to get the development enviorment running you will need to clone the repository from my git hub[link]https://github.com/tbone2311/About-me-project-challenge through your terminal, after cloning the repository open the directory in VS-code.
+In order to get the development enviorment running you will need to clone the repository from my git hub[link]https://github.com/tbone2311/About-me-project-challenge through your terminal, after cloning the repository open the directory in VS-code. [link]https://tbone2311.github.io/About-me-project-challenge/<-----Deployed application
 ## Usage
 
 About me
