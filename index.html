@@ -1,55 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/reset.css"> 
+    <link rel="stylesheet" href="assets/reset.css">
     <link rel="stylesheet" href="assets/style.css">
-    <title>Document</title>
+    <title>My Portfolio</title>
 </head>
+
 <body>
     <header class="header">
-        <h1> This is my h1</h1>
+        <h1>Tony Garlinski</h1>
         <nav>
             <ul>
-            <a href="">
-                <li>
-                    About me
-                </li>
-            </a>
-            <a href="">
-                <li>
-                    this is nav 2
-                </li>
-            </a>
-            <a href="">
-                <li>
-                    this is nav 3
-                </li>
-            </a>
-            <a href="">
-                <li>
-                    this is nav 4
-                </li>
-            </a>
+                <li><a href="#About-me">About Me</a></li>
+                <li><a href="#Contact-me">Contact Me</a></li>
+                <li><a href="#Work">My Work</a></li>
             </ul>
         </nav>
-</header>
-<hr></hr>
-<div class="container">
-    <div class="item item-1">item 1</div>
-    <div class="item item-2">item 2</div>
-    <div class="item item-3">item 3</div>
-    <div class="item item-4">item 4</div>
-    <div class="item item-5">item 5</div>
-    <div class="item item-6">item 6</div>
-</div>
+    </header>
+    <hr>
+    </hr>
+    <article class="article">
+        <div><img src="./images/me and remy.png" alt="me and my dog"></div>
+        <section class="section">
+            <h1 id="About-me">About Me</h1>
+            <p>Hi there! My name is Tony Garlinski and I'm 30 years old. I was born and raised in Oviedo, Florida and
+                currently reside in Orlando.</p>
+            <p>I'm a Pest control technician/aspiring Web Developer and I'm passionate about video games and computers.
+                In my free time, you can find me playing video games, taking my dog to the park or going to the beach.
+            </p>
+            <p>I'm always eager to learn new things and challenge myself. Some of my favorite books/movies/shows are
+                Harry potter, The lord of the rings, and Family guy! I also enjoy eating pizza, going to theme parks and
+                hanging out with my friends!</p>
+            <p>Thank you for taking the time to get to know me a little better. I'd love to connect with you and learn
+                more about your interests and passions!</p>
+        </section>
+    </article>
+    <div id="Work" class="container">
+        <a class="item item-1 image-1" href="https://tbone2311.github.io/Homework-repo/">Horiseon marketing project
+            1</a>
+        <a class="item item-2 image-2" href="https://www.google.com/">Place holder image/link</a>
+        <a class="item item-3 image-3" href="https://www.google.com/">Place holder image/link</a>
+        <a class="item item-4 image-4" href="https://www.google.com/">Place holder image/link</a>
+    </div>
 </body>
 <footer class="footer">
-    <p>Contact Me</p>
-    <hr></hr>
+    <p id="Contact-me" class="contactme">Contact Me</p>
+    <hr>
+    </hr>
     <p class="contacts">407-538-2423</p>
     <p class="contacts">Garlinskit@yahoo.com</p>
+    <a href="https://github.com/tbone2311">
+        <p class="contacts">GitHub</p>
+    </a>
 </footer>
+
 </html>
